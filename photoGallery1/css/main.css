@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#slidertotal {
+    top: 50px;
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+ul,
+li {
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#sildercontent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.res {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+
+/* small img css*/
+
+#small {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.699);
+    z-index: 1000;
+    text-align: center;
+}
+
+.small {
+    top: 10px;
+    display: inline;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.small img {
+    position: relative;
+    z-index: 1000000;
+    width: 40px;
+    height: 40px;
+}
+
+
+/* active classes*/
+
+.aktiv {
+    width: 100%;
+    height: 100%;
+}
+
+.smallaktiv img {
+    border: 2px solid white;
+}
